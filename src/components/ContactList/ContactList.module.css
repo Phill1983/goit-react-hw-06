@@ -1,0 +1,17 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: flex-start;
+  padding-left: 0;
+  width: 100%;
+}
+
+.input {
+  padding: 8px;
+  border: 1px
+    solid
+    #ccc;
+  border-radius: 4px;
+  width: 100%;
+}

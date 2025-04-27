@@ -1,0 +1,53 @@
+.container {
+  max-width: 800px;
+  margin: 0
+    auto;
+  padding: 24px;
+  font-family: Arial,
+    sans-serif;
+  background-color: #555555;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(
+      0deg
+    );
+  }
+  to {
+    transform: rotate(
+      360deg
+    );
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(
+      2
+    )
+    .logo {
+    animation: logo-spin
+      infinite
+      20s
+      linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #383838;
+}
+* {
+  opacity: 1 !important;
+  filter: none !important;
+  pointer-events: all !important;
+}
