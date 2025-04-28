@@ -12,12 +12,12 @@ export default function ContactList() {
         .sort((a, b) => a.name.localeCompare(b.name))
     : [];
 
-  if (contacts.length === 0 && filter === '') {
-    return null; 
+  if (contacts.length === 0) {
+    return <p className={styles.empty}>No contacts yet...</p>;
   }
 
   if (visibleContacts.length === 0 && filter !== '') {
-    return <p>No contacts found.</p>;
+    return <p className={styles.empty}>No contacts found.</p>;
   }
 
   return (
